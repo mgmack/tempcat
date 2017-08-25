@@ -1,0 +1,25 @@
+name: Advisory Catalyst PwC
+description: Advisory Catalyst PwC Theme
+type: theme
+core: 8.x
+package: custom
+base theme: classy
+regions:
+  header: Header
+  login: Log In
+  hero: Hero
+  content: Content
+  challenge: Challenge
+  desktop: Desktop Section
+  mobile: Mobile Section
+  footer: Footer
+  page_top: Page top
+  page_bottom: Page bottom
+screenshot: catalyst.png
+libraries:
+  - catalyst/global-css
+stylesheets-remove:
+  - core/assets/vendor/normalize-css/normalize.css
+  - core/modules/system/css/system.module.css
+  - core/modules/system/css/system.theme.css
+  - core/modules/views/css/views.module.css

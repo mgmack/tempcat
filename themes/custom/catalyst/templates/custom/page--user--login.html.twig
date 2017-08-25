@@ -1,0 +1,35 @@
+<div id="login-body">
+<div id="container-fluid-bg">
+  <header id="header">
+    <img id="logo" src="/images/catalyst-logo.png" alt="Catalyst PwC logo">
+  </header>
+</div>
+
+<!-- Login section -->
+
+<div  id="auth_box" class="container border center-block bg">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="form-body">
+        <div class="nav-header">
+        <ul class="nav nav-tabs nav-justified final-login">
+          <li class="active"><a href="/user/login?destination=/node" data-toggle="tab">Log In</a></li>
+          <li><a href="/user/register" data-toggle="tab">Sign Up</a></li>
+          <li><a href="/user/password" data-toggle="tab">Reset Password</a></li>
+        </ul>
+        </div>
+        <div id="SectionA" class="tab-pane fade in active">
+          {{ page.challenge }}
+          <section class="center-block">
+            <h2 class="title">{{ title }}</h2>
+              {{ messages }}
+
+              {{ page.content }}
+          </section>
+        </div><!-- column -->
+        <div class="clearfix"></div>
+      </div><!-- form-body -->
+    </div> <!-- col-md-4 -->
+  </div><!-- row -->
+</div><!-- container -->
+</div>

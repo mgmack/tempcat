@@ -1,0 +1,112 @@
+ 
+        <div>
+            {% if page.page_top %}   
+                {{ page.page_top }}
+            {% endif %} 
+        </div>
+
+
+        <div id="site-login">
+            <div class="row">
+                <div class="col-xs-12">
+                    {% if page.login %}
+                        {{ page.login }}
+                    {% endif %}   
+                </div><!-- column --> 
+            </div><!-- row --> 
+        </div><!-- container-fluid -->
+
+
+
+        <header id="header">
+            {% if page.header %}
+                {{ page.header }}
+            {% endif %}    
+        </header>
+        
+
+
+        <div class="container-fluid container-fluid-bg">
+            <section id="hero">
+                <div class="row">
+                    <div class="col-xs-12 col-lg-7 mkt-txt">
+                        {% if page.hero %}
+                            {{ page.hero }}
+                        {% endif %}
+                    </div><!-- column -->
+                </div><!-- row --> 
+            </section><!-- hero section --> 
+        </div><!-- container-fluid -->
+        
+
+
+        <!-- The Content Section -->
+        <div class="container border challenge-block center-block bg">
+            <div class="row">
+                <div class="col-xs-12">
+                    {% if page.content %}
+                        {{ page.content }}
+                    {% endif %}    
+                </div><!-- column --> 
+            </div><!-- row --> 
+        </div><!-- container -->
+       
+        
+
+
+        <!-- The Challenge Section -->
+        <div class="container border challenge-block center-block bg">
+            <div class="row">
+                <div class="col-xs-12">
+                    {% if page.challenge %}
+                        {{ page.challenge }}
+                    {% endif %}    
+                </div><!-- column --> 
+            </div><!-- row --> 
+        </div><!-- container -->
+ 
+
+
+        <!-- The Desktop Section -->
+        <div class="container-fluid container-fluid-bg">
+            <div class="row">
+                <div class="col-xs-12 col-sm-10 col-lg-8 col-sm-offset-1 col-md-offset-1 col-lg-offset-2">
+                    <section class="content center-block">
+                        {% if page.desktop %}
+                            {{ page.desktop }}
+                        {% endif %} 
+                    </section>
+                </div><!-- main column -->
+            </div><!-- row -->
+        </div><!-- container-fluid -->
+           
+
+        <!-- The Mobile Platform Section -->
+        <div class="container-fluid container-fluid-bg">
+            <div class="row">
+                <div class="col-xs-12 col-sm-10 col-lg-8 col-sm-offset-1 col-md-offset-1 col-lg-offset-2">
+                    {% if page.mobile %}
+                        {{ page.mobile }}
+                    {% endif %}
+                </div><!-- main column -->
+            </div><!-- row -->
+        </div><!-- container-fluid -->
+
+
+        <footer>
+            <div class="row">
+                <div class="col-xs-12">
+                    <section class="social-media-block content center-block">    
+                        {% if page.footer %}
+                            {{ page.footer }}
+                        {% endif %}
+                    </section>
+                </div><!-- main column -->
+            </div><!-- row -->
+        </footer>
+
+        <div> 
+            {% if page.page_bottom %}   
+                {{ page.page_bottom }}
+            {% endif %}
+        </div>

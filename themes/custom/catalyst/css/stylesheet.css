@@ -1,0 +1,156 @@
+* {margin:0; padding:0;}
+body {color: #000; font-family: arial; font-size: 16px; overflow-x: hidden;}
+button {margin-top:40px; min-width:280px; height: auto; max-height:50px; padding:4em;}
+a:link {color:#000; border:none; text-decoration: none;}
+a:hover {color:#fff; border:none; text-decoration: none;}
+a:visited {color:#000; border:none; text-decoration: none;}
+a:active {color:#000; border:none; text-decoration: none;}
+footer {background-color: lightgray; padding: 1em;}
+footer p {color:#333; font-size:90%;}
+
+.button {background-color: #fa580b; border: 0px solid #CCC; box-shadow: 1px 1px 2px #333; color: #fff; margin-bottom: 60px;}
+.button:hover {background-color: #c84608; color: #fff;}
+.mobile-featured-button {margin: 0px auto; margin-top: 40px; background-color: #fa580b; border: 0px solid #CCC; box-shadow: 1px 1px 2px #333; color: #fff; margin-bottom: 60px;}
+.mobile-featured-button:hover {background-color: #c84608; color: #fff;}
+.container-fluid-bg {background-color: darkslateblue;}
+.bi-image {padding-top: 3em; padding-bottom: 1em; width: 100%; height: auto;}
+.content {max-width: 800px;}
+.social-media-b.social-media {padding-right:.5em;}
+.mkt-txt {padding:2% 5em;}
+.line-space {padding: 1em .1em;}
+.push {margin-top:2em;}
+.challenge-block {margin: 4em auto .5em auto; min-width: 100%; padding: 1em 4em 0 4em;}
+.label {color:#000;}
+
+
+#hero {color:#fff;}
+#hero-bg {background-image: url("/themes/custom/catalyst/images/hero.png"); background-color: darkslateblue; background-repeat: no-repeat; background-position: center; background-size: cover; height: 500px;}
+h1#hero {font-size: 500%;}
+h4#hero {font-size: 150%;}
+#header {background-color: #fff; border-bottom: 1px solid #CCC; height: 130px; width: 100%; text-align: center;}
+#logo {margin: 2em auto; width: 196px; height: 70px; text-align: center;}
+#hero {width: 100%; height: auto;}
+#the-challenge {border-radius: .5em; border: 2px solid #fff; box-shadow: 1px 1px 2px #444; background-color: darkslateblue; color: #fff; text-align: center; padding: 2em; width: 100%; max-width: 800px; position: relative; top: -200px;}
+#mobile-section {color:#fff; background-color: #fff; background-image: url("/themes/custom/catalyst/images/phone.png"); background-position: right; background-repeat: no-repeat; height: 620px; font-size: 400%;}
+#phone-block {background-color: rgba(72,61,139,.95); border-radius: .2em; border: 2px solid #fff; box-shadow: 1px 1px 2px #444;  position: relative; top: 50px; padding: 1em; max-width: 500px; height: 450px;}
+#phone-block h2 {font-size: 100%;}
+#phone-block p {font-size: 30%;}
+#desktop-section {color:#fff;}
+#site-login {margin:0 auto; position:absolute; top:15px; right:15px;}
+#auth_box {width: 530px; margin: 50px auto; padding: 4em; border:1px solid #ddd; border-radius: 10px;}
+#auth_box input[type="email"],
+#auth_box input[type="password"] {
+  width: 400px;
+  border: 1px #ccc solid;
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 1251px) and (max-width: 1600px) {
+h1#hero {font-size: 400%;}
+h4#hero {font-size: 145%;}
+#the-challenge {max-width: 770px; top: -170px; border-radius: .5em; border: 2px solid #fff; box-shadow: 1px 1px 2px #444;}
+
+.mkt-txt {padding:4% 7em;}
+.challenge-block {margin: 2em auto .5em auto; min-width: 100%; padding: 1em 4em 0 4em;}
+}
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1250px) {
+h1#hero {font-size: 400%;}
+h4#hero {font-size: 150%;}
+#the-challenge {top: -150px; border-radius: .5em; border: 2px solid #fff; box-shadow: 1px 1px 2px #444;}
+
+.mkt-txt {padding: 4% 5em;}
+.container {width: 100%; margin-top: 4em;}
+}
+
+
+
+
+
+@media screen and (min-width: 569px) and (max-width: 767px) {
+h1#hero {font-size: 300%;}
+h4#hero {font-size: 150%;}
+#the-challenge {top: 0px; margin: .1em 0 1.5em 0; padding: 1em; border: none; box-shadow: none; border-radius: 0;}
+
+.mkt-txt {padding: 4% 4em;}
+.challenge-block {margin: 1em auto .5em auto; min-width: 100%; padding: 1em 4em 0 4em;}
+.container {padding-left: 0; padding-right: 0;}
+}
+
+
+
+
+
+@media screen and (max-width: 568px) {
+h1#hero {font-size: 170%;}
+h4#hero {font-size: 100%;}
+#hero-bg {background-image: url("/themes/custom/catalyst/images/hero-mobile.png");}
+#the-challenge {top: 0px; margin: .1em 0 1.5em 0; padding: 1em; text-align: left; border: none; box-shadow: none; border-radius: 0;}
+#mobile-section {background-position: center; padding:0;}
+#phone-block {background-color: rgba(72,61,139,.8); border-radius: 0; border:none; box-shadow: none; position: relative; top: 50px; padding: .5em; min-width: 100%; height: 350px;}
+#phone-block h2 {font-size: 70%;}
+#phone-block p {font-size: 30%;}
+
+.mkt-txt {padding:2em;}
+.challenge-block {margin: 1em auto .5em auto; min-width: 100%; padding: 1em 4em 0 4em;}
+.container {padding-left: 0; padding-right: 0;}
+}
+
+@media (max-width: 610px){
+  .button-position {
+    text-align: center;
+  }
+  .portfolio-mgmt-button {
+    background-color: #fa580b;
+    border: 0px solid #CCC;
+    box-shadow: 1px 1px 2px #333;
+    color: #fff;
+  }
+  .portfolio-mgmt-button:hover {
+    background-color: #c84608;
+    color: #fff;
+  }
+  .resource-mgmt-button {
+    background-color: #fa580b;
+    border: 0px solid #CCC;
+    box-shadow: 1px 1px 2px #333;
+    color: #fff;
+    margin-bottom: 60px;
+  }
+  .resource-mgmt-button:hover {
+    background-color: #c84608;
+    color: #fff;
+  }
+}
+@media (min-width: 611px) {
+  .portfolio-mgmt-button {
+    background-color: #fa580b;
+    border: 0px solid #ccc;
+    box-shadow: 1px 1px 2px #333;
+    color: #fff;
+    margin-bottom: 60px;
+    float: left;
+  }
+  .portfolio-mgmt-button:hover {
+    background-color: #c84608;
+    color: #fff;
+  }
+  .resource-mgmt-button {
+    background-color: #fa580b;
+    border: 0px solid #ccc;
+    box-shadow: 1px 1px 2px #333;
+    color: #fff;
+    margin-bottom: 60px;
+    float: right;
+  }
+  .resource-mgmt-button:hover {
+    background-color: #c84608;
+    color: #fff;
+  }
+}

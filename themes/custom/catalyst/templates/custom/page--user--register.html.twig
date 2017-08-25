@@ -1,0 +1,31 @@
+<div id="login-body">
+<div id="container-fluid-bg" xmlns="http://www.w3.org/1999/html">
+    <header id="header">
+        <img id="logo" src="/images/catalyst-logo.png" alt="Catalyst PwC logo">
+    </header>
+</div>
+
+<div  id="auth_box" class="container border center-block bg">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="form-body">
+                <div class="nav-header">
+                    <ul class="nav nav-tabs nav-justified final-login">
+                    <li ><a href="/user/login?destination=/node" data-toggle="tab">Log in</a></li>
+                    <li class="active"><a href="/user/register" data-toggle="tab">Sign Up</a></li>
+                    <li ><a href="/user/password" data-toggle="tab">Reset Password</a></li>
+                </ul>
+                </div>
+                {{ page.challenge }}
+                <section class="center-block">
+                    <h2 class="title">{{ title }}</h2>
+
+                    {{ messages }}
+                    {{ page.content }}
+
+                </section>
+            </div>
+        </div><!-- column -->
+    </div><!-- row -->
+</div><!-- container -->
+</div>

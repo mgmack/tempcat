@@ -1,0 +1,12 @@
+global-css:
+  version: VERSION
+  css:
+    theme:
+      https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css: { type: external }
+      https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css: { type: external }
+      css/stylesheet.css: {}
+      css/user_login.css: {}
+
+
+  js:
+    js/custom.js: {}
